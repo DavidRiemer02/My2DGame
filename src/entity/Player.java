@@ -34,15 +34,15 @@ public class Player extends Entity {
     public void setDefault (){
         worldX = gamePanel.tilesSize*23;
         worldY = gamePanel.tilesSize*21;
-        speed = 5;
+        speed = 10;
         direction = "down";
     }
     public void getPlayerImage(){
         try {
-            up1 = ImageIO.read(getClass().getResourceAsStream("/playerImages/New Piskel-1.png.png"));
-            up2 = ImageIO.read(getClass().getResourceAsStream("/playerImages/New Piskel-2.png.png"));
-            down1 = ImageIO.read(getClass().getResourceAsStream("/playerImages/New Piskel-7.png.png"));
-            down2 = ImageIO.read(getClass().getResourceAsStream("/playerImages/New Piskel-1.png.pngw"));
+            up1 = ImageIO.read(getClass().getResourceAsStream("/playerImages/New Piskel-7.png.png"));
+            up2 = ImageIO.read(getClass().getResourceAsStream("/playerImages/New Piskel-8.png.png"));
+            down1 = ImageIO.read(getClass().getResourceAsStream("/playerImages/New Piskel-1.png.png"));
+            down2 = ImageIO.read(getClass().getResourceAsStream("/playerImages/New Piskel-2.png.png"));
             left1 = ImageIO.read(getClass().getResourceAsStream("/playerImages/New Piskel-5.png.png"));
             left2 = ImageIO.read(getClass().getResourceAsStream("/playerImages/New Piskel-6.png.png"));
             right1 = ImageIO.read(getClass().getResourceAsStream("/playerImages/New Piskel-3.png.png"));

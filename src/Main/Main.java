@@ -16,6 +16,8 @@ public class Main {
 
         window.setLocationRelativeTo(null);
         window.setVisible(true);
+        gamePanel.playMusic(0);
+        gamePanel.setUpGame();
         gamePanel.startGameThread();
 
     }
